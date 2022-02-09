@@ -1,6 +1,5 @@
 import { InvoiceSum } from './../../../src/common/helpers/invoices/invoice-sum';
 import invoice from '../../helpers/data/invoice';
-import { Invoice } from './../../../src/common/interfaces/invoice';
 
 describe('InvoiceSum test', () => {
   test('correct instance', () => {
@@ -23,4 +22,5 @@ describe('InvoiceSum test invoice calculation', () => {
     expect(invoiceSum.invoice.balance).toEqual(0);
 
   });
+
 });
